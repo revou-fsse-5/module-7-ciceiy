@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Review</title>
+  </head>
+  <body>
+    <h1>Submit a Product Review</h1>
+    <form action="/review" method="post">
+      <textarea
+        name="description"
+        placeholder="Write your review"
+        required
+      ></textarea>
+      <input type="number" name="rating" placeholder="Rating (1-5)" required />
+      <button type="submit">Submit Review</button>
+    </form>
+  </body>
+</html>
